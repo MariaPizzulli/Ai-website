@@ -231,6 +231,20 @@ section {
   font-style: normal;
 }
 
+.section-heading h1 {
+  margin-top: 120px;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.section-heading h1 em {
+  color: #7453fc;
+  font-style: normal;
+}
+
 /* 
 ---------------------------------------------
 Pre-loader Style
