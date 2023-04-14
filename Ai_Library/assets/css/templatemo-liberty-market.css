@@ -1284,6 +1284,7 @@ Page Heading Style
   background-color: #2a2a2a;
 }
 
+
 .page-heading h6 {
   font-size: 20px;
   margin-bottom: 15px;
@@ -1322,6 +1323,55 @@ Page Heading Style
   margin-left: 15px;
 }
 
+.page-heading-second-version {
+  background-image: url(../images/heading-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 170px;
+  text-align: center;
+  background-color: #2a2a2a;
+}
+
+
+
+.page-heading-second-version h6 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.page-heading-second-version h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 66px;
+  text-transform: uppercase;
+}
+
+.page-heading-second-version span {
+  color: #8a75da;
+  font-size: 15px;
+}
+
+.page-heading-second-version span a {
+  color: #fff;
+}
+
+.page-heading-second-version .buttons {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-heading-second-version .buttons .main-button {
+  margin-right: 15px;
+}
+
+.page-heading-second-version .buttons .border-button {
+  margin-left: 15px;
+}
 
 
 /* 
