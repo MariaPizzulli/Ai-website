@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Liberty Template - NFT Item Detail Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 577 Liberty Market
+
+https://templatemo.com/tm-577-liberty-market
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="home.html" class="logo">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="explore.html">EXPLORE AI LIBRARY</a></li>
+                        <li><a href="news.html" class="active">NEWS</a></li>
+                        <li><a href="about%20us.html">ABOUT US</a></li>
+                        <li><a href="create.html">LOG IN/SIGN UP</a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+<!--
+  <div class="page-heading normal-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h6>Futuristic AI Library</h6>
+          <h2>View News</h2>
+          <span>Home > <a href="#">News</a></span>
+          <div class="buttons">
+            <div class="main-button">
+              <a href="explore.html">Latest News</a>
+            </div>
+            <div class="border-button">
+              <a href="create.html">News By Categories</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+-->
+  <div class="item-details-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2>View Details <em>For News</em> Here.</h2>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="left-image">
+            <img src="https://api.time.com/wp-content/uploads/2023/03/GettyImages-1248323870.jpg?quality=85&w=800" alt="" style="border-radius: 20px; height: 350px; width: 500px">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h4><a href="https://time.com/6263475/gpt4-ai-projects/">GPT-4 Has Been Out for 1 Day. These New Projects Show Just How Much More Powerful It Is</a></h4>
+          <span class="author">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Time_Magazine_logo.svg" alt="" style="max-width: 50px; border-radius: 50%;">
+            <h6>Time<br><a href="time">@time</a></h6>
+          </span>
+          <p>On March 14, OpenAI officially announced the launch of the large multimodal model GPT-4</p>
+          <div class="row">
+            <div class="col-3">
+              <span class="bid">
+                Author<br><strong>Nik Popli</strong><br>
+              </span>
+            </div>
+            <div class="col-4">
+              <span class="owner">
+                Year<br><strong>03/15/2023</strong><br>
+              </span>
+            </div>
+            <div class="col-5">
+              <span class="ends">
+                Category<br><strong>Chat GPT</strong><br>
+              </span>
+            </div>
+          </div>
+          <form action="http://localhost:63342/FuturisticAI_Library/Ai_Library/create.html">
+            <button type="submit" id="form-submit" class="main-button">Add to Favorites</button>
+            <button type="submit" id="form-submit" class="main-button">Check Availability</button>
+          </form>
+        </div>
+        <div class="col-lg-12">
+          <div class="current-bid">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="mini-heading"><h4>News of the Month</h4></div>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                  <select name="Category" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                      <option selected>Sort By: Latest</option>
+                      <option type="checkbox" name="option1" value="old">Sort By: Oldest</option>
+                      <option value="ASC">Sort By: Author (A-Z)</option>
+                      <option value="DESC">Sort By: Author (Z-A)</option>
+                    <option value="most">Sort By: Popularity (most)</option>
+                    <option value="least">Sort By: Popularity (least)</option>
+                  </select>
+              </fieldset>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item">
+                  <div class="left-img">
+                    <img src="https://wp.technologyreview.com/wp-content/uploads/2023/02/MA23-front.cover_.png?fit=848,1164" alt="" style="width: 190px; height: 300px">
+                  </div>
+                  <div class="right-content">
+                    <h4>MIT Technology Review</h4>
+                    <a href="https://www.instagram.com/technologyreview/">@technologyreview</a><br>
+                    <div class="line-dec"></div>
+                    <h6>Author: <em>Rachel Gordon</em></h6>
+                    <h6>Date: <em>04/03/2023</em></h6>
+                    <h6>Category: <em>Robot</em></h6>
+                    <form action="http://localhost:63342/FuturisticAI_Library/Ai_Library/create.html">
+                      <button type="submit" id="form-submit" class="main-button">Add to Favorites</button>
+                      <button type="submit" id="form-submit" class="main-button">Check Availability</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item">
+                  <div class="left-img">
+                    <img src="assets/images/current-02.jpg" alt="">
+                  </div>
+                  <div class="right-content">
+                    <h4>How to worry wisely about AI</h4>
+                    <a href="https://www.instagram.com/theeconomist/">@TheEconomist</a>
+                    <div class="line-dec"></div>
+                    <h6>Author: <em>Rachel Gordon</em></h6>
+                    <h6>Date: <em>04/03/2023</em></h6>
+                    <h6>Category: <em>Robot</em></h6>
+                    <form action="http://localhost:63342/FuturisticAI_Library/Ai_Library/create.html">
+                      <button type="submit" id="form-submit" class="main-button">Add to Favorites</button>
+                      <button type="submit" id="form-submit" class="main-button">Check Availability</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item">
+                  <div class="left-img">
+                    <img src="assets/images/current-03.jpg" alt="">
+                  </div>
+                  <div class="right-content">
+                    <h4>David Walker</h4>
+                    <a href="#">@davidwalker</a>
+                    <div class="line-dec"></div>
+                    <h6>Author: <em>Rachel Gordon</em></h6>
+                    <h6>Date: <em>04/03/2023</em></h6>
+                    <h6>Category: <em>Robot</em></h6>
+                    <form action="http://localhost:63342/FuturisticAI_Library/Ai_Library/create.html">
+                      <button type="submit" id="form-submit" class="main-button">Add to Favorites</button>
+                      <button type="submit" id="form-submit" class="main-button">Check Availability</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item">
+                  <div class="left-img">
+                    <img src="https://assets.bizclikmedia.net/300/a44855dfd7fee2d50eadf6881764b253:6df0aaf4ba79e30b71aaaf193e4f789f/01-ai-cover-apr2023.jpg" alt="" style="height: 300px; width:  190px" >
+                  </div>
+                  <div class="right-content">
+                    <h4>AI.Magazine</h4>
+                    <a href="https://www.instagram.com/ai.magazine/">@ai.magazine</a>
+                    <div class="line-dec"></div>
+                    <h6>Date: <em>April 2023</em></h6>
+                    <h6>Category: <em>AI</em></h6>
+                    <form action="http://localhost:63342/FuturisticAI_Library/Ai_Library/create.html">
+                      <button type="submit" id="form-submit" class="main-button">Add to Favorites</button>
+                      <button type="submit" id="form-submit" class="main-button">Check Availability</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item">
+                  <div class="left-img">
+                    <img src="https://assets.bizclikmedia.net/300/40c472d8d5bad4969c92a2629ac80bef:619bb006d6922d173f74e7a33a797ee5/cyber-march23.png" alt="" style="height: 300px; width: 190px">
+                  </div>
+                  <div class="right-content">
+                    <h4>Cyber Magazine</h4>
+                    <a href="https://www.instagram.com/cyber_mag/">@cyber_mag</a>
+                    <div class="line-dec"></div>
+                    <h6>Date: <em>March 2023</em></h6>
+                    <h6>Category: <em>Cybersecurity</em></h6>
+                    <form action="http://localhost:63342/FuturisticAI_Library/Ai_Library/create.html">
+                      <button type="submit" id="form-submit" class="main-button">Add to Favorites</button>
+                      <button type="submit" id="form-submit" class="main-button">Check Availability</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item">
+                  <div class="left-img">
+                    <img src="https://assets.bizclikmedia.net/300/1fea77ec01a12a46c1ed1538d1c01269:3246fdd5bee0f5bb82df4af8ebbe514b/tech-apr23.png" alt="" style="width: 190px; height: 300px">
+                  </div>
+                  <div class="right-content">
+                    <h4>Technology</h4>
+                    <a href="https://www.instagram.com/technologymagbc/">@technologymagbc</a>
+                    <div class="line-dec"></div>
+                    <h6>Date: <em> April 2023</em></h6>
+                    <h6>Category: <em>Informatics</em></h6>
+                    <form action="http://localhost:63342/FuturisticAI_Library/Ai_Library/create.html">
+                      <button type="submit" id="form-submit" class="main-button">Add to Favorites</button>
+                      <button type="submit" id="form-submit" class="main-button">Check Availability</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div class="create-nft">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2>Create Your NFT & Put It On The Market.</h2>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="main-button">
+            <a href="create.html">Create Your NFT Now</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item first-item">
+            <div class="number">
+              <h6>1</h6>
+            </div>
+            <div class="icon">
+              <img src="assets/images/icon-02.png" alt="">
+            </div>
+            <h4>Set Up Your Wallet</h4>
+            <p>There are 5 different HTML pages included in this NFT <a href="https://templatemo.com/page/1" target="_blank" rel="nofollow">website template</a>. You can edit or modify any section on any page as you required.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item second-item">
+            <div class="number">
+              <h6>2</h6>
+            </div>
+            <div class="icon">
+              <img src="assets/images/icon-04.png" alt="">
+            </div>
+            <h4>Add Your Digital NFT</h4>
+            <p>If you would like to support our TemplateMo website, please visit <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">our contact page</a> to make a PayPal contribution. Thank you.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item">
+            <div class="icon">
+              <img src="assets/images/icon-06.png" alt="">
+            </div>
+            <h4>Sell Your NFT &amp; Make Profit</h4>
+            <p>NFT means Non-Fungible Token that are used in digital cryptocurrency markets. There are many different kinds of NFTs in the industry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2022 <a href="#">Liberty</a> NFT Marketplace Co., Ltd. All rights reserved.
+          &nbsp;&nbsp;
+          Designed by <a title="HTML CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+  </body>
+</html>
