@@ -1486,6 +1486,7 @@ Explore Style
   background-size: cover;
   padding: 400px 0px 120px 0px;
   position: relative;
+
 }
 
 .discover-items .section-heading {
@@ -1612,6 +1613,24 @@ Explore Style
   border-radius: 20px;
   position: relative;
   margin-bottom: 52px;
+
+
+}
+.listax {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+.list-itemax {
+  background-color: #ccc;
+  display: flex;
+  padding: 0.5em;
+  width: 25%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+.list-contentax {
+  width: 100%;
 }
 
 .discover-items .item span {
