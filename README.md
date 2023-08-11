@@ -13,6 +13,7 @@ From beginners to experts, everyone can find something valuable at AI Library!
 + ⌨️ PhpStorm
 + ⚙️ HTML5
 + 🎨 CSS3
++ 🖱️ JavaScript
 + 💾 Docker
 
 ## Authors
