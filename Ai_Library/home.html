@@ -527,7 +527,19 @@ pezzo che potrebbe servire
 <script src="assets/js/tabs.js"></script>
 <script src="assets/js/popup.js"></script>
 <script src="assets/js/custom.js"></script>
-
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "4d73569b-69e5-4d01-a714-65454f0ecda9", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "c5d506db-0266-4276-92c3-e46dc3dc16e7", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
 
 
 </body>
