@@ -23,6 +23,15 @@
     margin-top: 15px;
 }
 
+.twolines {
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    display: flex;
+  /*  max-height: 3.6em; */
+    line-height: 1.8em;
+    height: 2.6em;
+}
+
 .discover-items-my #search-form input,
 .discover-items-my #search-form select {
     width: 100%;
