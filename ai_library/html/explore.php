@@ -53,17 +53,17 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="home.html" class="logo">
+                    <a href="../index.php" class="logo">
                         <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="explore.html" class="active">Biblioteca AI</a></li>
-                        <li><a href="news.html">Riviste e news</a></li>
-                        <li><a href="about%20us.html">Chi siamo</a></li>
-                        <li><a href="login%20signup.html">Iscriviti/Accedi</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="explore.php" class="active">Biblioteca AI</a></li>
+                        <li><a href="news.php">Riviste e news</a></li>
+                        <li><a href="about_us.php">Chi siamo</a></li>
+                        <li><a href="signup.php">Iscriviti/Accedi</a></li>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -176,7 +176,7 @@ https://templatemo.com/tm-577-liberty-market
                     <select name="Category" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
                         <option selected>Tutte le Categorie</option>
                         <option type="checkbox" name="option1" value="AI">AI</option>
-                        <option value="Robot">Robot</option>
+                        <option value="Robotica">Robotica</option>
                         <option value="Cyber Security">Cyber Security</option>
                         <option value="Metaverso">Metaverso</option>
                         <option value="NFT">NFT</option>

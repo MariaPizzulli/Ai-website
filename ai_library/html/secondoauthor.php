@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../assets/css/templatemo-liberty-market.css">
     <link rel="stylesheet" href="../assets/css/owl.css">
     <link rel="stylesheet" href="../assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
 TemplateMo 577 Liberty Market
@@ -52,17 +52,17 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="home.html" class="logo">
+                    <a href="../index.php" class="logo">
                         <img src="../assets/images/logo/10.png" alt="" style="max-width: 60px; border-radius: 60%">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="explore.html">Biblioteca AI</a></li>
-                        <li><a href="news.html">Riviste e news</a></li>
-                        <li><a href="about%20us.html" class="active">Chi siamo</a></li>
-                        <li><a href="login%20signup.html">Autenticati/Accedi</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="explore.php">Biblioteca AI</a></li>
+                        <li><a href="news.php">Riviste e news</a></li>
+                        <li><a href="about_us.php" class="active">Chi siamo</a></li>
+                        <li><a href="signup.php">Autenticati/Accedi</a></li>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -84,7 +84,7 @@ https://templatemo.com/tm-577-liberty-market
           <span>Home > <a href="#">Author</a></span>
           <div class="buttons">
             <div class="main-button">
-              <a href="explore.html">Explore Our Items</a>
+              <a href="explore.php">Explore Our Items</a>
             </div>
             <div class="border-button">
               <a href="login%20signup.html">Create Your NFT</a>
@@ -167,7 +167,7 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="news.html">View Details</a>
+                  <a href="news.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="news.html">View Details</a>
+                  <a href="news.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -225,7 +225,7 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="news.html">View Details</a>
+                  <a href="news.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -254,7 +254,7 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="news.html">View Details</a>
+                  <a href="news.php">View Details</a>
                 </div>
               </div>
             </div>

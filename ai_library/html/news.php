@@ -53,17 +53,17 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="home.html" class="logo">
+                    <a href="../index.php" class="logo">
                         <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="explore.html">Biblioteca AI</a></li>
-                        <li><a href="news.html" class="active">Riviste e news</a></li>
-                        <li><a href="about%20us.html">Chi siamo</a></li>
-                        <li><a href="login%20signup.html">Iscriviti/Accedi</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="explore.php">Biblioteca AI</a></li>
+                        <li><a href="news.php" class="active">Riviste e news</a></li>
+                        <li><a href="about_us.php">Chi siamo</a></li>
+                        <li><a href="signup.php">Iscriviti/Accedi</a></li>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -85,10 +85,10 @@ https://templatemo.com/tm-577-liberty-market
           <span>Home > <a href="#">News</a></span>
           <div class="buttons">
             <div class="main-button">
-              <a href="explore.html">Latest News</a>
+              <a href="explore.php">Latest News</a>
             </div>
             <div class="border-button">
-              <a href="login signup.html">News By Categories</a>
+              <a href="login signup.php">News By Categories</a>
             </div>
           </div>
         </div>
@@ -186,7 +186,7 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="news.html">View Details</a>
+                  <a href="news.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -381,7 +381,7 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="https://www.repubblica.it/venerdi/2023/04/21/news/intelligenza_artificiale_midjourney_chatgpt_copertina_venerdi-397066872/">Sfoglia</a>
+                  <a href="https://www.repubblica.it/venerdi/2023/04/21/news/intelligenza_artificiale_midjourney_chatgpt_copertina_venerdi-397066872/news.php">Sfoglia</a>
                 </div>
               </div>
             </div>
@@ -724,7 +724,7 @@ https://templatemo.com/tm-577-liberty-market
         </div>
         <div class="col-lg-4">
           <div class="main-button">
-            <a href="login signup.html">Create Your NFT Now</a>
+            <a href="login signup.php">Create Your NFT Now</a>
           </div>
         </div>
         <div class="col-lg-4">

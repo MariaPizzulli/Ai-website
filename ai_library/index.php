@@ -17,16 +17,16 @@
 
 
   <!-- Bootstrap core CSS -->
-  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
 
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="../assets/css/fontawesome.css">
-  <link rel="stylesheet" href="../assets/css/templatemo-liberty-market.css">
-  <link rel="stylesheet" href="../assets/css/owl.css">
-  <link rel="stylesheet" href="../assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   <!--
 
@@ -65,17 +65,17 @@
       <div class="col-12">
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
-          <a href="home.html" class="logo">
-            <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
+          <a href="index.php" class="logo">
+            <img src="assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
-            <li><a href="home.html" class="active">Home</a></li>
-            <li><a href="explore.html">Biblioteca AI</a></li>
-            <li><a href="news.html">Riviste e news</a></li>
-            <li><a href="about%20us.html">Chi siamo</a></li>
-            <li><a href="login%20signup.html">Iscriviti/Accedi</a></li>
+            <li><a href="index.php" class="active">Home</a></li>
+            <li><a href="html/explore.php">Biblioteca AI</a></li>
+            <li><a href="html/news.php">Riviste e news</a></li>
+            <li><a href="html/about_us.php">Chi siamo</a></li>
+            <li><a href="html/signup.php">Iscriviti/Accedi</a></li>
           </ul>
           <a class='menu-trigger'>
             <span>Menu</span>
@@ -103,11 +103,11 @@
 
             </div>
             <div class="main-button col-5">
-              <a href="explore.html">Esplora la libreria</a>
+              <a href="html/explore.php">Esplora la libreria</a>
             </div>
 
             <div class="main-button col-5" >
-              <a href="news.html">Le nostre riviste e news</a>
+              <a href="html/news.php">Le nostre riviste e news</a>
             </div>
           </div>
         </div>
@@ -115,10 +115,10 @@
       <div class="col-lg-5 offset-lg-1">
         <div class="owl-banner owl-carousel">
           <div class="item" style="width: 100%">
-            <img src="../assets/images/Home/test6.png" alt="">
+            <img src="assets/images/Home/test6.png" alt="">
           </div>
           <div class="item" style="width: 100%" >
-            <img src="../assets/images/Home/test12.png" alt="">
+            <img src="assets/images/Home/test12.png" alt="">
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@
             <div class="col-lg-2 col-sm-6">
               <div class="item">
                 <div class="icon">
-                  <img src="../assets/images/logo/metaverso.png" alt="" style="border-radius: 50%">
+                  <img src="assets/images/logo/metaverso.png" alt="" style="border-radius: 50%">
                 </div>
                 <h4>Metaverso</h4>
                 <div class="icon-button">
@@ -154,7 +154,7 @@
             <div class="col-lg-2 col-sm-6">
               <div class="item">
                 <div class="icon">
-                  <img src="../assets/images/logo/AI.png" alt="" style="border-radius: 50%">
+                  <img src="assets/images/logo/AI.png" alt="" style="border-radius: 50%">
                 </div>
                 <h4>AI</h4>
                 <div class="icon-button">
@@ -165,7 +165,7 @@
             <div class="col-lg-2 col-sm-6">
               <div class="item">
                 <div class="icon">
-                  <img src="../assets/images/logo/nft.png" alt="" style="border-radius: 50%">
+                  <img src="assets/images/logo/nft.png" alt="" style="border-radius: 50%">
                 </div>
                 <h4>NFT</h4>
                 <div class="icon-button">
@@ -176,7 +176,7 @@
             <div class="col-lg-2 col-sm-6">
               <div class="item">
                 <div class="icon">
-                  <img src="../assets/images/logo/security.png" alt="" style="border-radius: 50%">
+                  <img src="assets/images/logo/security.png" alt="" style="border-radius: 50%">
                 </div>
                 <h4>Cybersecurity</h4>
                 <div class="icon-button">
@@ -187,7 +187,7 @@
             <div class="col-lg-2 col-sm-6">
               <div class="item">
                 <div class="icon">
-                  <img src="../assets/images/logo/robot.png" alt="" style="border-radius: 50%">
+                  <img src="assets/images/logo/robot.png" alt="" style="border-radius: 50%">
                 </div>
                 <h4>Robot</h4>
                 <div class="icon-button">
@@ -198,7 +198,7 @@
             <div class="col-lg-2 col-sm-6">
               <div class="item">
                 <div class="icon">
-                  <img src="../assets/images/logo/more.png" alt="" style="border-radius: 50%">
+                  <img src="assets/images/logo/more.png" alt="" style="border-radius: 50%">
                 </div>
                 <h4>e molti altri...</h4>
                 <div class="icon-button">
@@ -520,17 +520,17 @@ pezzo che potrebbe servire
 
 <!-- Scripts -->
 <!-- Bootstrap core JavaScript -->
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 
-<script src="../assets/js/isotope.min.js"></script>
-<script src="../assets/js/owl-carousel.js"></script>
+<script src="assets/js/isotope.min.js"></script>
+<script src="assets/js/owl-carousel.js"></script>
 
 
-<script src="../assets/js/tabs.js"></script>
-<script src="../assets/js/popup.js"></script>
-<script src="../assets/js/custom.js"></script>
+<script src="assets/js/tabs.js"></script>
+<script src="assets/js/popup.js"></script>
+<script src="assets/js/custom.js"></script>
 <script>
   window.watsonAssistantChatOptions = {
     integrationID: "4d73569b-69e5-4d01-a714-65454f0ecda9", // The ID of this integration.

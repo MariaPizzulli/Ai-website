@@ -52,17 +52,17 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="home.html" class="logo">
+                    <a href="../index.php" class="logo">
                         <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="explore.html">Biblioteca AI</a></li>
-                        <li><a href="news.html">Riviste e news</a></li>
-                        <li><a href="about us.html" class="active">Chi siamo</a></li>
-                        <li><a href="../login%20signup.html">Iscriviti/Accedi</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="explore.php">Biblioteca AI</a></li>
+                        <li><a href="news.php">Riviste e news</a></li>
+                        <li><a href="about_us.php" class="active">Chi siamo</a></li>
+                        <li><a href="signup.php">Iscriviti/Accedi</a></li>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>

@@ -52,17 +52,17 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="home.html" class="logo">
+                    <a href="../index.php" class="logo">
                         <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="explore.html">Biblioteca AI</a></li>
-                        <li><a href="news.html">Riviste e news</a></li>
-                        <li><a href="about%20us.html">Chi siamo</a></li>
-                        <li><a href="login signup.html" class="active">Iscriviti/Accedi</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="explore.php">Biblioteca AI</a></li>
+                        <li><a href="news.php">Riviste e news</a></li>
+                        <li><a href="about_us.php">Chi siamo</a></li>
+                        <li><a href="signup.php" class="active">Iscriviti/Accedi</a></li>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -84,7 +84,7 @@ https://templatemo.com/tm-577-liberty-market
           <span>Home > <a href="#">Create Yours</a></span>
           <div class="buttons">
             <div class="main-button">
-              <a href="explore.html">Explore Our Items</a>
+              <a href="explore.php">Explore Our Items</a>
             </div>
             <div class="border-button">
               <a href="login signup.html">Create Your NFT</a>
@@ -103,35 +103,17 @@ https://templatemo.com/tm-577-liberty-market
             <!--
             <div class="line-dec"></div>
             -->
-            <h1>CREA IL TUO<em> ACCOUNT </em> O <em>ACCEDI</em></h1><br>
-            <a href="#"><h5>Se possiedi un account esegui l'accesso</h5></a>
+            <h1>EFFETTUA <em>L'ACCESSO</em></h1><br>
+            <a href="signup.php"><h5>Se non possiedi un account esegui la registrazione</h5></a>
           </div>
         </div>
         <div class="col-lg-12">
           <form id="contact" action="" method="post">
             <div class="row">
-              <div class="col-lg-4">
-                <fieldset>
-                  <label for="title">Nome</label>
-                  <input type="title" name="title" id="title" placeholder="Es. Liam" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-4">
-                <fieldset>
-                  <label for="description">Cognome</label>
-                  <input type="description" name="description" id="description" placeholder="Es. Smith" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-4">
-                <fieldset>
-                  <label for="username">Username</label>
-                  <input type="username" name="username" id="username" placeholder="Es. Liam_75" autocomplete="on" required>
-                </fieldset>
-              </div>
               <div class="col-lg-6">
                 <fieldset>
-                  <label for="price">Email</label>
-                  <input type="price" name="price" id="price" placeholder="Es. liamsmith@gmail.com" autocomplete="on" required>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder="Es. liamsmith@gmail.com" autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-6">
@@ -150,7 +132,7 @@ https://templatemo.com/tm-577-liberty-market
                </div>
               <div class=" col-lg-4">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button"  >REGISTRATI</button>
+                  <button type="submit" id="form-submit" class="orange-button"  >ACCEDI</button>
                 </fieldset>
               </div>
             </div>
