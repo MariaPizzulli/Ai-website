@@ -78,7 +78,14 @@ https://templatemo.com/tm-577-liberty-market
                         <li><a href="explore.php">Biblioteca AI</a></li>
                         <li><a href="news.php" class="active">Riviste e news</a></li>
                         <li><a href="about_us.php">Chi siamo</a></li>
-                        <li><a href="signup.php">Iscriviti/Accedi</a></li>
+
+                      <?php
+                      if (isset ($_SESSION['logged'])) {
+                        echo '<li><a href="logout.php">logout </a></li>';
+                      } else {
+                        echo '<li><a href="signup.php">Iscriviti/Accedi</a></li>';
+                      }
+                      ?>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -127,7 +134,7 @@ https://templatemo.com/tm-577-liberty-market
             <div class="row">
               <div class="col-lg-4">
                 <fieldset>
-                  <input type="text" name="keyword" class="searchText" placeholder="Scrivi Qualcosa..." autocomplete="on" required>
+                  <input type="text" name="keyword" class="searchText" placeholder="Scrivi Qualcosa..." autocomplete="off" required>
                 </fieldset>
               </div>
               <div class="col-lg-3">

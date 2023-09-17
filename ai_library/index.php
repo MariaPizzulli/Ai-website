@@ -86,7 +86,13 @@ if (isset($_GET['logout'])) {
             <li><a href="html/explore.php">Biblioteca AI</a></li>
             <li><a href="html/news.php">Riviste e news</a></li>
             <li><a href="html/about_us.php">Chi siamo</a></li>
-            <li><a href="html/signup.php">Iscriviti/Accedi</a></li>
+            <?php
+            if (isset ($_SESSION['logged'])) {
+              echo '<li><a href="html/logout.php">logout </a></li>';
+            } else {
+              echo '<li><a href="html/signup.php">Iscriviti/Accedi</a></li>';
+            }
+            ?>
           </ul>
           <a class='menu-trigger'>
             <span>Menu</span>

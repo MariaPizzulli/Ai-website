@@ -1,3 +1,18 @@
+<?PHP
+require_once('db_util.php');
+
+session_start();
+
+if (isset($_GET['logout'])) {
+  session_destroy();
+  header("location: index.php");
+}
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,7 +77,14 @@ https://templatemo.com/tm-577-liberty-market
                         <li><a href="explore.php">Biblioteca AI</a></li>
                         <li><a href="news.php">Riviste e news</a></li>
                         <li><a href="about_us.php">Chi siamo</a></li>
-                        <li><a href="signup.php" class="active">Iscriviti/Accedi</a></li>
+
+                      <?php
+                      if (isset ($_SESSION['logged'])) {
+                        echo '<li><a href="logout.php" class="active">logout </a></li>';
+                      } else {
+                        echo '<li><a href="signup.php" class="active">Iscriviti/Accedi</a></li>';
+                      }
+                      ?>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -108,36 +130,42 @@ https://templatemo.com/tm-577-liberty-market
           </div>
         </div>
         <div class="col-lg-12">
-          <form id="contact" action="" method="post">
+          <form id="contact" action="signup-check.php" method="post">
+            <?php if (isset($_GET['error'])) { ?>
+              <p class="error"><?php echo $_GET['error']; ?></p>
+            <?php } ?>
+            <?php if (isset($_GET['success'])) { ?>
+              <p class="success"><?php echo $_GET['success']; ?></p>
+            <?php } ?>
             <div class="row">
               <div class="col-lg-4">
                 <fieldset>
                   <label for="title">Nome</label>
-                  <input type="title" name="title" id="title" placeholder="Es. Liam" autocomplete="on" required>
+                  <input type="title" name="name" id="title" placeholder="Es. Liam" autocomplete="off" required>
                 </fieldset>
               </div>
               <div class="col-lg-4">
                 <fieldset>
                   <label for="description">Cognome</label>
-                  <input type="description" name="description" id="description" placeholder="Es. Smith" autocomplete="on" required>
+                  <input type="description" name="surname" id="description" placeholder="Es. Smith" autocomplete="off" required>
                 </fieldset>
               </div>
               <div class="col-lg-4">
                 <fieldset>
                   <label for="username">Username</label>
-                  <input type="username" name="username" id="username" placeholder="Es. Liam_75" autocomplete="on" required>
+                  <input type="username" name="username" id="username" placeholder="Es. Liam_75" autocomplete="off" required>
                 </fieldset>
               </div>
               <div class="col-lg-6">
                 <fieldset>
                   <label for="price">Email</label>
-                  <input type="price" name="price" id="price" placeholder="Es. liamsmith@gmail.com" autocomplete="on" required>
+                  <input type="price" name="email" id="price" placeholder="Es. liamsmith@gmail.com" autocomplete="off" required>
                 </fieldset>
               </div>
               <div class="col-lg-6">
                 <fieldset>
                   <label for="royalities">Password</label>
-                  <input type="royalities" name="royalities" id="royalities" placeholder="********" autocomplete="on" required>
+                  <input type="royalities" name="password" id="royalities" placeholder="********" autocomplete="off" required>
                 </fieldset>
               </div>
                <div class="col-lg-4">
