@@ -129,6 +129,7 @@ https://templatemo.com/tm-577-liberty-market
                   </select>
                 </fieldset>
               </div>
+              <!--
               <div class="col-lg-3">
                 <fieldset>
                   <select name="Price" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
@@ -137,7 +138,7 @@ https://templatemo.com/tm-577-liberty-market
                     <option value="Coming-Soon">Prossimamente</option>
                   </select>
                 </fieldset>
-              </div>
+              </div>-->
               <div class="col-lg-2">
                 <fieldset>
                   <button class="main-button">Cerca</button>
@@ -670,8 +671,9 @@ https://templatemo.com/tm-577-liberty-market
           </div>
 
             <form action="C:\Users\maria\PhpstormProjects\FuturisticAI_Library\Ai_Library\news.html">
-              <button type="submit" id="form-submit" class="main-button">Aggiungi ai Preferiti</button>
-              <button type="submit" id="form-submit" style="float: right" class="main-button">Controlla la Disponibilità</button>
+              <button type="submit" id="form-submit" class="main-button">Sfoglia</button>
+              <!--
+              <button type="submit" id="form-submit" style="float: right" class="main-button">Controlla la Disponibilità</button>-->
             </form>
 
         </div>
