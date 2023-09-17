@@ -114,13 +114,13 @@ ALTER TABLE `Utenti`
 COMMIT;
 
 
-INSERT INTO `Libri` ('titolo','autore','immagine','anno','link','categoria') VALUES
+INSERT INTO `Libri` (titolo,autore,immagine,anno,link,categoria) VALUES
 ('The Metaverse','Matthew Ball','../assets/images/Explore/metaverse2.jpg','2022','https://www.goodreads.com/de/book/show/59064518','Metaverso'),
 ('Robotics','Neil Wilkins','../assets/images/Explore/RPA.jpg','2019','https://www.goodreads.com/book/show/44768709-robotics?from_search=true&from_srp=true&qid=8Xa1JqoRcS&rank=3','Robotica'),
 ('Atlas of AI','Kate Crawford','../assets/images/Explore/Atlas%20of%20AI.jpg','2021','https://www.goodreads.com/book/show/50131136-atlas-of-ai?from_search=true&from_srp=true&qid=VIggR8uVKp&rank=1','AI'),
 ('Machine Learning','Samuel Hack','../assets/images/Explore/MLBeginners.jpg','2019','https://www.goodreads.com/book/show/48498566-machine-learning-mathematics?from_search=true&from_srp=true&qid=yiGvxD5l12&rank=1','Machine Learning'),
 ('Deep Machine','Eric Topol','../assets/images/Explore/medicine3.jpg','2019','https://www.goodreads.com/book/show/40915762-deep-medicine?from_search=true&from_srp=true&qid=DXIcCBMxVo&rank=2','Altri...'),
-('The ultimate guide to Chat GPT','Chat GPT','../assets/images/Explore/chat4.jpg','https://www.goodreads.com/book/show/123019127-the-ultimate-guide-to-chat-gpt---understanding-training-and-deploying-a?from_search=true&from_srp=true&qid=xiel8snrZv&rank=6','Altri...'),
+('The ultimate guide to Chat GPT','Chat GPT','../assets/images/Explore/chat4.jpg','2023','https://www.goodreads.com/book/show/123019127-the-ultimate-guide-to-chat-gpt---understanding-training-and-deploying-a?from_search=true&from_srp=true&qid=xiel8snrZv&rank=6','Altri...'),
 ('The NFT','Nathan Real','../assets/images/Explore/NFT2.jpg','2022','https://www.goodreads.com/book/show/60142060-the-nft-handbook?from_search=true&from_srp=true&qid=2ENWjgMHQV&rank=9','NFT'),
 ('Computer Programming and Cyber Security','Zach Codings','../assets/images/Explore/codings.jpg','2021','https://www.goodreads.com/book/show/61729966-computer-programming-and-cybersecurity-for-beginners?ref=nav_sb_ss_3_12','Cyber Security'),
 ('Life 3.0','Max Tegmark','../assets/images/Explore/Life%203.0.jpg','2017','https://www.goodreads.com/book/show/34272565-life-3-0?ref=nav_sb_ss_1_8','AI'),
@@ -129,7 +129,7 @@ INSERT INTO `Libri` ('titolo','autore','immagine','anno','link','categoria') VAL
 ('Machine Learning Q and AI','Sebastian Raschka','../assets/images/Explore/ML.jfif','2023','https://www.wikidata.org/wiki/Q57159429','Machine Learning');
 
 
-INSERT INTO `Riviste` ('titolo','rivista','immagine','anno','link','categoria') VALUES
+INSERT INTO `Riviste` (titolo,rivista,immagine,anno,link,categoria) VALUES
 ('Lera dei Superumani','Wired Italia','../assets/images/riviste/wireditalia.png','2022','https://www.wired.it/article/wired-in-edicola-primavera-super-umani/','AI'),
 ('The First step to Financial freedom','Crypto Magazine','../assets/images/riviste/cryptomagazine.png','2019','https://cryptomagazine.shop/products/crypto-magazine-issue-1','Altri...'),
 ('Cybersecurity e Geopolitica','Cybersecurity Trends','../assets/images/riviste/cybersecuritytrends.png','2021','https://www.cybertrends.it/sfoglia-la-rivista/','Cyber Security'),
