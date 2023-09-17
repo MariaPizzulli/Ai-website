@@ -670,7 +670,7 @@ https://templatemo.com/tm-577-liberty-market
             </div>
           </div>
 
-            <form action="C:\Users\maria\PhpstormProjects\FuturisticAI_Library\Ai_Library\news.html">
+            <form action="https://tinnovamag.com/riviste/marzo-2023/">
               <button type="submit" id="form-submit" class="main-button">Sfoglia</button>
               <!--
               <button type="submit" id="form-submit" style="float: right" class="main-button">Controlla la Disponibilità</button>-->

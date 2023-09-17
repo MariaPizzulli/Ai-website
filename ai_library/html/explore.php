@@ -1,3 +1,18 @@
+<?PHP
+require_once('db_util.php');
+
+session_start();
+
+if (isset($_GET['logout'])) {
+  session_destroy();
+  header("location: index.php");
+}
+
+$sql = "SELECT * FROM Libri";
+$libri = mysqli_query($connect, $sql) or die('Errore nella query: ' . $sql . '\n' . mysqli_error());
+mysqli_close($connect);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -248,7 +263,45 @@ https://templatemo.com/tm-577-liberty-market
             </div>
           </div>
         </div> -->
-
+        <?php
+        foreach ($libri as $libro)
+        {
+          echo '
+            <div class="col-lg-3">
+          <div class="item ">
+            <div class="row">
+              <div class="col-lg-12">
+                <span class="author">
+                  <img src="assets/images/Explore/author.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                </span>
+                <img src='.$libro['immagine'].' alt="" style="border-radius: 20px;">
+                <h4 class="twolines">'.$libro['titolo'].'</h4>
+              </div>
+              <div class="col-lg-12">
+                <div class="line-dec"></div>
+                <div class="row">
+                  <div class="col-12">
+                    <span>Autore: <strong>'.$libro['autore'].'</strong></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <span>Anno di Pubblicazione: <strong>'.$libro['anno'].'</strong></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="main-button">
+                  <a href='.$libro['link'].'>Dettagli</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            ';
+        }
+        ?>
+        <!--
         <div class="col-lg-3">
           <div class="item ">
             <div class="row">
@@ -312,6 +365,8 @@ https://templatemo.com/tm-577-liberty-market
             </div>
           </div>
         </div>
+
+
 
         <div class="col-lg-3">
           <div class="item">
@@ -510,7 +565,8 @@ https://templatemo.com/tm-577-liberty-market
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+
       </div>
     </div>
   </div>
