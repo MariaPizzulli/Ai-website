@@ -669,13 +669,13 @@ https://templatemo.com/tm-577-liberty-market
               </span>
             </div>
           </div>
-
+            <center>
             <form action="https://tinnovamag.com/riviste/marzo-2023/">
-              <button type="submit" id="form-submit" class="main-button">Sfoglia</button>
+              <button type="submit" id="form-submit" class="main-button" >Sfoglia</button>
               <!--
               <button type="submit" id="form-submit" style="float: right" class="main-button">Controlla la Disponibilità</button>-->
             </form>
-
+            </center>
         </div>
       </div>
     </div>
