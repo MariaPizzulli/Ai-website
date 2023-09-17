@@ -671,8 +671,8 @@ https://templatemo.com/tm-577-liberty-market
           </div>
 
             <form action="C:\Users\maria\PhpstormProjects\FuturisticAI_Library\Ai_Library\news.html">
-              <button type="submit" id="form-submit" class="main-button">Sfoglia</button>
-              <!--
+              <button type="submit" id="form-submit" class="main-button"><center>Sfoglia</center></button>
+                            <!--
               <button type="submit" id="form-submit" style="float: right" class="main-button">Controlla la Disponibilità</button>-->
             </form>
 
