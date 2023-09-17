@@ -110,7 +110,7 @@ https://templatemo.com/tm-577-liberty-market
                   <img src="../assets/images/Explore/HumanCompatible.jpg" alt="" style="border-radius: 20px; width: 80%">
                   <div class="hover-effect">
                     <div class="content">
-                      <h4>Human Compatible</h4>
+                      <h4><a href="https://www.goodreads.com/book/show/44767248-human-compatible?ref=nav_sb_ss_2_9">Compatible</a></h4>
                       <span class="author">
                         <img src="../assets/images/Explore/Stuart%20J.%20Russell.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                         <h6>Stuart J. Russell<br><a href="https://en.wikipedia.org/wiki/Stuart_J._Russell">Wikipedia</a></h6>
@@ -124,7 +124,7 @@ https://templatemo.com/tm-577-liberty-market
                   <img src="../assets/images/Explore/brains.jpg" alt="" style="border-radius: 20px; width: 80%">
                   <div class="hover-effect">
                     <div class="content">
-                      <h4>A Thousand Brains</h4>
+                      <h4><a href="https://www.goodreads.com/book/show/54503521-a-thousand-brains?ref=nav_sb_ss_1_15">Thousand Brains</a></h4>
                       <span class="author">
                         <img src="../assets/images/Explore/Hawkins.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                         <h6>Jeff Hawkins<br><a href="https://en.wikipedia.org/wiki/Jeff_Hawkins">Wikipedia</a></h6>
