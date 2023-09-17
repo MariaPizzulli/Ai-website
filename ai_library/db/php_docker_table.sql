@@ -122,7 +122,11 @@ INSERT INTO `Libri` ('titolo','autore','immagine','anno','link','categoria') VAL
 ('Deep Machine','Eric Topol','../assets/images/Explore/medicine3.jpg','2019','https://www.goodreads.com/book/show/40915762-deep-medicine?from_search=true&from_srp=true&qid=DXIcCBMxVo&rank=2','Altri...'),
 ('The ultimate guide to Chat GPT','Chat GPT','../assets/images/Explore/chat4.jpg','https://www.goodreads.com/book/show/123019127-the-ultimate-guide-to-chat-gpt---understanding-training-and-deploying-a?from_search=true&from_srp=true&qid=xiel8snrZv&rank=6','Altri...'),
 ('The NFT','Nathan Real','../assets/images/Explore/NFT2.jpg','2022','https://www.goodreads.com/book/show/60142060-the-nft-handbook?from_search=true&from_srp=true&qid=2ENWjgMHQV&rank=9','NFT'),
-('Computer Programming and Cyber Security','Zach Codings','../assets/images/Explore/codings.jpg','2021','https://www.goodreads.com/book/show/61729966-computer-programming-and-cybersecurity-for-beginners?ref=nav_sb_ss_3_12','Cyber Security');
+('Computer Programming and Cyber Security','Zach Codings','../assets/images/Explore/codings.jpg','2021','https://www.goodreads.com/book/show/61729966-computer-programming-and-cybersecurity-for-beginners?ref=nav_sb_ss_3_12','Cyber Security'),
+('Life 3.0','Max Tegmark','../assets/images/Explore/Life%203.0.jpg','2017','https://www.goodreads.com/book/show/34272565-life-3-0?ref=nav_sb_ss_1_8','AI'),
+('Human compatible','Stuart J. Russell','../assets/images/Explore/HumanCompatible.jpg','2019','https://www.goodreads.com/book/show/44767248-human-compatible?ref=nav_sb_ss_2_9','AI'),
+('Thousand Brains','Jeff Hawkins','../assets/images/Explore/brains.jpg','2021','https://www.goodreads.com/book/show/54503521-a-thousand-brains?ref=nav_sb_ss_1_15','Altri...'),
+('Machine Learning Q and AI','Sebastian Raschka','../assets/images/Explore/ML.jfif','2023','https://leanpub.com/machine-learning-q-and-ai/','Machine Learning');
 
 INSERT INTO `Riviste` ('titolo','rivista','immagine','anno','link','categoria') VALUES
 ('Lera dei Superumani','Wired Italia','../assets/images/riviste/wireditalia.png','2022','https://www.wired.it/article/wired-in-edicola-primavera-super-umani/','AI'),
@@ -132,7 +136,8 @@ INSERT INTO `Riviste` ('titolo','rivista','immagine','anno','link','categoria') 
 ('IoT (Internet of Things)','Firmware 2.0','../assets/images/riviste/firmware.png','2019','https://it.emcelettronica.com/scarica-gratis-firmware-2-0-00?ref=menu','Altri...'),
 ('Questa copertina lho fatta io','Il Venerdì','../assets/images/riviste/ilvenerdi.png','2023','https://www.repubblica.it/venerdi/2023/04/21/news/intelligenza_artificiale_midjourney_chatgpt_copertina_venerdi-397066872/news.php','AI'),
 ('Il Futuro nel Metaverso','Mind','../assets/images/riviste/lescienzemind.png','2022','https://edicola.shop/le-scienze-mind-mente-cervello-il-futuro-nel-metaverso-n-208-aprile-2022-mensile.html','Metaverso'),
-('Dove stiamo andando?','PCB Magazine','../assets/images/riviste/pcb.png','2021','https://shop.newbusinessmedia.it/products/pcb-magazine','AI');
+('Dove stiamo andando?','PCB Magazine','../assets/images/riviste/pcb.png','2021','https://shop.newbusinessmedia.it/products/pcb-magazine','AI'),
+('Intelligenza Artificiale e Imprese','Tecnologia e Innovazione','../assets/images/riviste/tecnologiaeinnovazione.png','2023','https://tinnovamag.com/read-online/','Altri...');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

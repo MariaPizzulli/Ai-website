@@ -138,7 +138,7 @@ https://templatemo.com/tm-577-liberty-market
                   <img src="../assets/images/Explore/ML.jfif" alt="" style="border-radius: 20px; width: 80%">
                   <div class="hover-effect">
                     <div class="content">
-                      <h4>Machine Learning Q and AI</h4>
+                      <h4><a href="https://leanpub.com/machine-learning-q-and-ai/">Learning Q and AI</a></h4>
                       <span class="author">
                         <img src="../assets/images/Explore/SebastianRaschka2.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                         <h6>Sebastian Raschka<br><a href="https://www.wikidata.org/wiki/Q57159429">Wikipedia</a></h6>
