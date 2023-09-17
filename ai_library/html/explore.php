@@ -96,7 +96,7 @@ https://templatemo.com/tm-577-liberty-market
                   <img src="../assets/images/Explore/Life%203.0.jpg" alt="" style="border-radius: 20px; width: 80%">
                   <div class="hover-effect">
                     <div class="content">
-                      <h4>Life 3.0</h4>
+                      <h4 href="https://www.goodreads.com/book/show/34272565-life-3-0?ref=nav_sb_ss_1_8">Life 3.0</h4>
                       <span class="author">
                         <img src="../assets/images/Explore/MaxTegmark.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                         <h6>Max Tegmark<br><a href="https://it.wikipedia.org/wiki/Max_Tegmark">Wikipedia</a></h6>
