@@ -126,7 +126,7 @@ INSERT INTO `Libri` ('titolo','autore','immagine','anno','link','categoria') VAL
 ('Life 3.0','Max Tegmark','../assets/images/Explore/Life%203.0.jpg','2017','https://www.goodreads.com/book/show/34272565-life-3-0?ref=nav_sb_ss_1_8','AI'),
 ('Human compatible','Stuart J. Russell','../assets/images/Explore/HumanCompatible.jpg','2019','https://www.goodreads.com/book/show/44767248-human-compatible?ref=nav_sb_ss_2_9','AI'),
 ('Thousand Brains','Jeff Hawkins','../assets/images/Explore/brains.jpg','2021','https://www.goodreads.com/book/show/54503521-a-thousand-brains?ref=nav_sb_ss_1_15','Altri...'),
-('Machine Learning Q and AI','Sebastian Raschka','../assets/images/Explore/ML.jfif','2023','https://leanpub.com/machine-learning-q-and-ai/','Machine Learning');
+('Machine Learning Q and AI','Sebastian Raschka','../assets/images/Explore/ML.jfif','2023','https://www.wikidata.org/wiki/Q57159429','Machine Learning');
 
 INSERT INTO `Riviste` ('titolo','rivista','immagine','anno','link','categoria') VALUES
 ('Lera dei Superumani','Wired Italia','../assets/images/riviste/wireditalia.png','2022','https://www.wired.it/article/wired-in-edicola-primavera-super-umani/','AI'),
