@@ -142,7 +142,7 @@ https://templatemo.com/tm-577-liberty-market
                   <select name="Category" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
                     <option selected>Tutte le Categorie</option>
                     <option type="checkbox" name="option1" value="AI">AI</option>
-                    <option value="Robot">Robot</option>
+                    <option value="Robotica">Robotica</option>
                     <option value="Cyber Security">Cyber Security</option>
                     <option value="Metaverso">Metaverso</option>
                     <option value="NFT">NFT</option>
