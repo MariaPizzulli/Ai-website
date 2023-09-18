@@ -706,11 +706,11 @@ https://templatemo.com/tm-577-liberty-market
         </div>
         <div class="col-lg-7">
           <div class="left-image">
-            <img src="../assets/images/riviste/tecnologiaeinnovazione.png" alt="" style="align-content: center; height: 700px; width: 500px">
+            <img src="../assets/images/riviste/Copertina_ConsulenzaInnovazione.jpg" alt="" style="align-content: center; height: 700px; width: 500px">
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <h4><a href="https://tinnovamag.com/read-online/">Intelligenza Artificiale e Imprese</a></h4>
+          <h4><a href="https://tinnovamag.com/riviste/speciale-consulenza-innovazione-2023/">Intelligenza Artificiale e Imprese</a></h4>
           <span class="author">
             <img src="../assets/images/riviste/teceinnlogo.png" alt="" style="max-width: 50px; border-radius: 50%;">
             <h6>Tecnologia e Innovazione<br><a href="https://www.facebook.com/tecnologiaeinnovazionemag/?locale=it_IT">@tecnologiainnovazione</a></h6>
@@ -719,7 +719,7 @@ https://templatemo.com/tm-577-liberty-market
           <div class="row">
             <div class="col-3">
               <span class="bid">
-                Mese<br><strong>Marzo</strong><br>
+                Mese<br><strong>Settembre</strong><br>
               </span>
             </div>
             <div class="col-4">
@@ -734,7 +734,7 @@ https://templatemo.com/tm-577-liberty-market
             </div>
           </div>
             <center>
-            <form action="https://tinnovamag.com/riviste/marzo-2023/">
+            <form action="https://tinnovamag.com/riviste/speciale-consulenza-innovazione-2023/">
               <button type="submit" id="form-submit" class="main-button" >Sfoglia</button>
               <!--
               <button type="submit" id="form-submit" style="float: right" class="main-button">Controlla la Disponibilità</button>-->
