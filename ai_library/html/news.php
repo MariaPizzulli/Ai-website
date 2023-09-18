@@ -130,11 +130,11 @@ https://templatemo.com/tm-577-liberty-market
           </div>
         </div>
         <div class="col-lg-7">
-          <form id="search-form" name="gs" method="submit" role="search" action="#">
+          <form id="search-form" name="gs" role="search" action="#">
             <div class="row">
               <div class="col-lg-4">
                 <fieldset>
-                  <input type="text" name="keyword" class="searchText" placeholder="Scrivi Qualcosa..." autocomplete="off" required>
+                  <input type="text" id="nomericerca" name="keyword" class="searchText" placeholder="Scrivi Qualcosa..." autocomplete="off" required>
                 </fieldset>
               </div>
               <div class="col-lg-3">
@@ -163,7 +163,12 @@ https://templatemo.com/tm-577-liberty-market
               </div>-->
               <div class="col-lg-2">
                 <fieldset>
-                  <button class="main-button">Cerca</button>
+                  <button class="main-button" onclick="search_news(event)">Cerca</button>
+                </fieldset>
+              </div>
+              <div class="col-lg-2">
+                <fieldset>
+                  <button class="main-button" onclick="reset_news(event)">Reset</button>
                 </fieldset>
               </div>
             </div>
@@ -219,7 +224,8 @@ https://templatemo.com/tm-577-liberty-market
         foreach ($riviste as $rivista)
         {
           echo '
-          <div class="col-lg-3">
+          <div class="col-lg-3" name="cardnews">
+          <span name="spancategory" style="display: none">'.$rivista['categoria'].'</span>
           <div class="item">
             <div class="row">
               <div class="col-lg-12">
@@ -227,7 +233,7 @@ https://templatemo.com/tm-577-liberty-market
                   <img src="assets/images/Explore/author.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 </span>
                 <img src='.$rivista['immagine'].' alt="" style="border-radius: 20px;">
-                <h4 class="twolines">'.$rivista['titolo'].'</h4>
+                <h4 class="twolines" name="titolorivista">'.$rivista['titolo'].'</h4>
               </div>
               <div class="col-lg-12">
                 <div class="line-dec"></div>
@@ -868,6 +874,61 @@ https://templatemo.com/tm-577-liberty-market
       t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
       document.head.appendChild(t);
     });
+  </script>
+  <script>
+    function search_news(event) {
+      event.preventDefault()
+      let input = document.getElementById('nomericerca').value
+      input=input.toLowerCase();
+      let categoria = document.getElementById('chooseCategory').value
+      categoria=categoria.toLowerCase();
+      let x = document.getElementsByName('cardnews');
+      let titoli=document.getElementsByName('titolorivista');
+      let categorie=document.getElementsByName('spancategory');
+
+      for (i = 0; i < x.length; i++) {
+        let titolo=titoli[i].innerHTML
+        let categoria_filtro=categorie[i].innerHTML
+        //titolo= titolo+'';
+        //titolo=titolo.toLowerCase()
+        console.log(categoria)
+        if(categoria=='tutte le categorie'){
+          console.log('tutte')
+          if (!titolo.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+          }
+          else {
+            x[i].style.display="list-item";
+          }
+        }else if(categoria_filtro.toLowerCase().includes(categoria)){
+
+            console.log(categoria_filtro.toLowerCase()+' '+categoria)
+            console.log(titolo.toLowerCase().includes(input) )
+            if (!titolo.toLowerCase().includes(input)) {
+              x[i].style.display="none";
+            }
+            else {
+              x[i].style.display="list-item";
+            }
+
+        }else{x[i].style.display="none";}
+      }
+    }
+
+    function reset_news(event) {
+      event.preventDefault()
+
+      let x = document.getElementsByName('cardnews');
+      //let categoria = document.getElementById('chooseCategory').select('Tutte le Categorie')
+      //document.getElementById('chooseCategory').value='Tutte le Categorie'
+      $('#chooseCategory').val('Tutte le Categorie');
+
+      for (i = 0; i < x.length; i++) {
+
+          x[i].style.display="list-item";
+
+      }
+    }
   </script>
   </body>
 </html>
