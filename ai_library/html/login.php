@@ -120,18 +120,24 @@ https://templatemo.com/tm-577-liberty-market
           </div>
         </div>
         <div class="col-lg-12">
-          <form id="contact" action="" method="post">
+          <form id="contact" action="login-check.php" method="post">
+            <?php if (isset($_GET['error'])) { ?>
+              <p class="error"><?php echo $_GET['error']; ?></p>
+            <?php } ?>
+            <?php if (isset($_GET['success'])) { ?>
+              <p class="success"><?php echo $_GET['success']; ?></p>
+            <?php } ?>
             <div class="row">
               <div class="col-lg-6">
                 <fieldset>
                   <label for="email">Email</label>
-                  <input type="email" name="email" id="email" placeholder="Es. liamsmith@gmail.com" autocomplete="on" required>
+                  <input type="email" name="email" id="email" placeholder="Es. liamsmith@gmail.com" autocomplete="off" required>
                 </fieldset>
               </div>
               <div class="col-lg-6">
                 <fieldset>
                   <label for="royalities">Password</label>
-                  <input type="royalities" name="royalities" id="royalities" placeholder="********" autocomplete="on" required>
+                  <input type="royalities" name="password" id="royalities" placeholder="********" autocomplete="off" required>
                 </fieldset>
               </div>
                <div class="col-lg-4">

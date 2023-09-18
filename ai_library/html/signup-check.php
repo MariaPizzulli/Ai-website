@@ -48,7 +48,7 @@ if (isset($_POST['username']) && isset($_POST['password'])
 		// hashing the password
         $pass = md5($pass);
 
-	    $sql = "SELECT * FROM Utenti WHERE username='$username' ";
+	    $sql = "SELECT * FROM Utenti WHERE username='$username'";
 		$result = mysqli_query($connect, $sql);
 
 		if (mysqli_num_rows($result) > 0) {
