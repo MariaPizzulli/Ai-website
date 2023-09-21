@@ -33,6 +33,6 @@ From beginners to experts, everyone can find something valuable at AI Library!
 + MariaPizzulli
 + mariajosesalasmiranda
 
-##License:
+## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
