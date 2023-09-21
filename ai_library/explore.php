@@ -27,15 +27,15 @@ mysqli_close($connect);
     <title>Liberty NFT Marketplace - Explore Listing Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../assets/css/templatemo-liberty-market.css">
-    <link rel="stylesheet" href="../assets/css/owl.css">
-    <link rel="stylesheet" href="../assets/css/MyCSS.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/MyCSS.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -68,13 +68,13 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="../index.php" class="logo">
-                        <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
+                    <a href="index.php" class="logo">
+                        <img src="assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="explore.php" class="active">Biblioteca AI</a></li>
                         <li><a href="news.php">Riviste e news</a></li>
                         <li><a href="about_us.php">Chi siamo</a></li>
@@ -114,12 +114,12 @@ https://templatemo.com/tm-577-liberty-market
             <div class="owl-features owl-carousel">
               <div class="item">
                 <div class="thumb">
-                  <img src="../assets/images/Explore/Life%203.0.jpg" alt="" style="border-radius: 20px; width: 80%">
+                  <img src="assets/images/Explore/Life 3.0.jpg" alt="" style="border-radius: 20px; width: 80%">
                   <div class="hover-effect">
                     <div class="content">
                       <h4><a href="https://www.goodreads.com/book/show/34272565-life-3-0?ref=nav_sb_ss_1_8">Life 3.0</a></h4>
                       <span class="author">
-                        <img src="../assets/images/Explore/MaxTegmark.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                        <img src="assets/images/Explore/MaxTegmark.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                         <h6>Max Tegmark<br><a href="https://it.wikipedia.org/wiki/Max_Tegmark">Wikipedia</a></h6>
                       </span>
                     </div>
@@ -128,12 +128,12 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="../assets/images/Explore/HumanCompatible.jpg" alt="" style="border-radius: 20px; width: 80%">
+                  <img src="assets/images/Explore/HumanCompatible.jpg" alt="" style="border-radius: 20px; width: 80%">
                   <div class="hover-effect">
                     <div class="content">
                       <h4><a href="https://www.goodreads.com/book/show/44767248-human-compatible?ref=nav_sb_ss_2_9">Compatible</a></h4>
                       <span class="author">
-                        <img src="../assets/images/Explore/Stuart%20J.%20Russell.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                        <img src="assets/images/Explore/Stuart J. Russell.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                         <h6>Stuart J. Russell<br><a href="https://en.wikipedia.org/wiki/Stuart_J._Russell">Wikipedia</a></h6>
                       </span>
                     </div>
@@ -142,12 +142,12 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="../assets/images/Explore/brains.jpg" alt="" style="border-radius: 20px; width: 80%">
+                  <img src="assets/images/Explore/brains.jpg" alt="" style="border-radius: 20px; width: 80%">
                   <div class="hover-effect">
                     <div class="content">
                       <h4><a href="https://www.goodreads.com/book/show/54503521-a-thousand-brains?ref=nav_sb_ss_1_15">Thousand Brains</a></h4>
                       <span class="author">
-                        <img src="../assets/images/Explore/Hawkins.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                        <img src="assets/images/Explore/Hawkins.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                         <h6>Jeff Hawkins<br><a href="https://en.wikipedia.org/wiki/Jeff_Hawkins">Wikipedia</a></h6>
                       </span>
                     </div>
@@ -156,12 +156,12 @@ https://templatemo.com/tm-577-liberty-market
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="../assets/images/Explore/ML.jfif" alt="" style="border-radius: 20px; width: 80%">
+                  <img src="assets/images/Explore/ML.jfif" alt="" style="border-radius: 20px; width: 80%">
                   <div class="hover-effect">
                     <div class="content">
                       <h4><a href="https://leanpub.com/machine-learning-q-and-ai/">Learning Q and AI</a></h4>
                       <span class="author">
-                        <img src="../assets/images/Explore/SebastianRaschka2.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                        <img src="assets/images/Explore/SebastianRaschka2.jpg" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                         <h6>Sebastian Raschka<br><a href="https://www.wikidata.org/wiki/Q57159429">Wikipedia</a></h6>
                       </span>
                     </div>
@@ -590,21 +590,21 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-lg-12">
               <div class="item">
                 <h4>1.</h4>
-                <img src="../assets/images/autori/stuartjrussel.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/stuartjrussel.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Stuart J. Russell<br><a href="https://en.wikipedia.org/wiki/Stuart_J._Russell">Informatico</a></h6>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
                 <h4>2.</h4>
-                <img src="../assets/images/autori/nickbostrom.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/nickbostrom.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Nick Bostrom<br><a href="https://it.wikipedia.org/wiki/Nick_Bostrom">Filosofo</a></h6>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
                 <h4>3.</h4>
-                <img src="../assets/images/autori/garyfredmarcus.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/garyfredmarcus.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Gary Fred Marcus<br><a href="https://en.wikipedia.org/wiki/Gary_Marcus">Scienziato cognitivo</a></h6>
               </div>
             </div>
@@ -615,21 +615,21 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-lg-12">
               <div class="item">
                 <h4>4.</h4>
-                <img src="../assets/images/autori/turing.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/turing.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Alan Turing<br><a href="https://it.wikipedia.org/wiki/Alan_Turing">Matematico</a></h6>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
                 <h4>5.</h4>
-                <img src="../assets/images/autori/francescarossi.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/francescarossi.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Francesca Rossi<br><a href="https://it.wikipedia.org/wiki/Francesca_Rossi_(scienziata)">Informatica</a></h6>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
                 <h4>6.</h4>
-                <img src="../assets/images/autori/katedarling.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/katedarling.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Kate Darling<br><a href="https://en.wikipedia.org/wiki/Kate_Darling">Ricercatrice</a></h6>
               </div>
             </div>
@@ -640,21 +640,21 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-lg-12">
               <div class="item">
                 <h4>7.</h4>
-                <img src="../assets/images/autori/maxtegmark.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/maxtegmark.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Max Tegmark<br><a href="https://it.wikipedia.org/wiki/Max_Tegmark">Cosmologo</a></h6>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
                 <h4>8.</h4>
-                <img src="../assets/images/autori/katecrawford.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/katecrawford.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Kate Crawford<br><a href="https://en.wikipedia.org/wiki/Kate_Crawford">Accademica</a></h6>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
                 <h4>9.</h4>
-                <img src="../assets/images/autori/amywebb.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
+                <img src="assets/images/autori/amywebb.png" alt="" style="max-width: 50px; max-height: 50px; border-radius: 50%;">
                 <h6>Amy Webb<br><a href="https://en.wikipedia.org/wiki/Amy_Webb">Futurista</a></h6>
               </div>
             </div>
@@ -706,15 +706,15 @@ https://templatemo.com/tm-577-liberty-market
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="../vendor/jquery/jquery.min.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="../assets/js/isotope.min.js"></script>
-  <script src="../assets/js/owl-carousel.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
 
-  <script src="../assets/js/tabs.js"></script>
-  <script src="../assets/js/popup.js"></script>
-  <script src="../assets/js/custom.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
   <script>
     window.watsonAssistantChatOptions = {
       integrationID: "4d73569b-69e5-4d01-a714-65454f0ecda9", // The ID of this integration.

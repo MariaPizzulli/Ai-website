@@ -3,7 +3,13 @@ require_once('db_util.php');
 
 session_start();
 
+if (isset($_GET['logout'])) {
+  session_destroy();
+  header("location: index.php");
+}
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,14 +24,14 @@ session_start();
     <title>Liberty Template - Create NFT Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../assets/css/templatemo-liberty-market.css">
-    <link rel="stylesheet" href="../assets/css/owl.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -58,23 +64,24 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="../index.php" class="logo">
-                        <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
+                    <a href="index.php" class="logo">
+                        <img src="assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="explore.php">Biblioteca AI</a></li>
                         <li><a href="news.php">Riviste e news</a></li>
                         <li><a href="about_us.php">Chi siamo</a></li>
-                        <?php
-                        if (isset ($_SESSION['logged'])) {
-                            echo '<li><a href="logout.php" class="active">logout </a></li>';
-                        } else {
-                            echo '<li><a href="signup.php" class="active">Iscriviti/Accedi</a></li>';
-                        }
-                        ?>
+
+                      <?php
+                      if (isset ($_SESSION['logged'])) {
+                        echo '<li><a href="logout.php" class="active">logout </a></li>';
+                      } else {
+                        echo '<li><a href="signup.php" class="active">Iscriviti/Accedi</a></li>';
+                      }
+                      ?>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -99,7 +106,7 @@ https://templatemo.com/tm-577-liberty-market
               <a href="explore.php">Explore Our Items</a>
             </div>
             <div class="border-button">
-              <a href="login signup.html">Create Your NFT</a>
+              <a href="login signup.php">Create Your NFT</a>
             </div>
           </div>
         </div>
@@ -115,12 +122,12 @@ https://templatemo.com/tm-577-liberty-market
             <!--
             <div class="line-dec"></div>
             -->
-            <h1>EFFETTUA <em>L'ACCESSO</em></h1><br>
-            <a href="signup.php"><h5>Se non possiedi un account esegui la registrazione</h5></a>
+            <h1>CREA IL TUO<em> ACCOUNT </em> O <em>ACCEDI</em></h1><br>
+            <a href="login.php"><h5>Se possiedi un account esegui l'accesso</h5></a>
           </div>
         </div>
         <div class="col-lg-12">
-          <form id="contact" action="login-check.php" method="post">
+          <form id="contact" action="signup-check.php" method="post">
             <?php if (isset($_GET['error'])) { ?>
               <p class="error"><?php echo $_GET['error']; ?></p>
             <?php } ?>
@@ -128,10 +135,28 @@ https://templatemo.com/tm-577-liberty-market
               <p class="success"><?php echo $_GET['success']; ?></p>
             <?php } ?>
             <div class="row">
+              <div class="col-lg-4">
+                <fieldset>
+                  <label for="title">Nome</label>
+                  <input type="title" name="name" id="title" placeholder="Es. Liam" autocomplete="off" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4">
+                <fieldset>
+                  <label for="description">Cognome</label>
+                  <input type="description" name="surname" id="description" placeholder="Es. Smith" autocomplete="off" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4">
+                <fieldset>
+                  <label for="username">Username</label>
+                  <input type="username" name="username" id="username" placeholder="Es. Liam_75" autocomplete="off" required>
+                </fieldset>
+              </div>
               <div class="col-lg-6">
                 <fieldset>
-                  <label for="email">Email</label>
-                  <input type="email" name="email" id="email" placeholder="Es. liamsmith@gmail.com" autocomplete="off" required>
+                  <label for="price">Email</label>
+                  <input type="price" name="email" id="price" placeholder="Es. liamsmith@gmail.com" autocomplete="off" required>
                 </fieldset>
               </div>
               <div class="col-lg-6">
@@ -141,58 +166,16 @@ https://templatemo.com/tm-577-liberty-market
                 </fieldset>
               </div>
                <div class="col-lg-4">
-                 <!--
-                 <fieldset>
-                   <label for="file">Your File</label>
-                   <input type="file" id="file" name="myfiles[]" multiple />
-                 </fieldset>-->
 
                </div>
               <div class=" col-lg-4">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button"  >ACCEDI</button>
+                  <button type="submit" id="form-submit" class="orange-button"  >REGISTRATI</button>
                 </fieldset>
               </div>
             </div>
           </form>
         </div>
-        <!--
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <div class="line-dec"></div>
-            <h2>This Is <em>Your Item</em> Preview.</h2>
-          </div>
-        </div>
-        <div class="col-lg-7">
-          <div class="left-image">
-            <img src="assets/images/create-yours.jpg" alt="" style="border-radius: 20px;">
-          </div>
-        </div>
-        <div class="col-lg-5 align-self-center">
-          <h4>Dolores Haze Westworld Eye</h4>
-          <span class="author">
-            <img src="assets/images/author-02.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-            <h6>Kataleya Smithee<br><a href="#">@kataleey</a></h6>
-          </span>
-          <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="row">
-            <div class="col-3">
-              <span class="bid">
-                Current Bid<br><strong>0.06 ETH</strong><br><em>($8055,35)</em>
-              </span>
-            </div>
-            <div class="col-4">
-              <span class="owner">
-                Owner<br><strong>Alan Smithee</strong><br><em>(@asmithee)</em>
-              </span>
-            </div>
-            <div class="col-5">
-              <span class="ends">
-                Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(January 22nd, 2021)</em>
-              </span>
-            </div>
-          </div>
-        </div>-->
       </div>
     </div>
   </div>
@@ -211,15 +194,15 @@ https://templatemo.com/tm-577-liberty-market
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="../vendor/jquery/jquery.min.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="../assets/js/isotope.min.js"></script>
-  <script src="../assets/js/owl-carousel.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
 
-  <script src="../assets/js/tabs.js"></script>
-  <script src="../assets/js/popup.js"></script>
-  <script src="../assets/js/custom.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
   <script>
     window.watsonAssistantChatOptions = {
       integrationID: "4d73569b-69e5-4d01-a714-65454f0ecda9", // The ID of this integration.

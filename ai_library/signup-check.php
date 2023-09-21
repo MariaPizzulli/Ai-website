@@ -16,7 +16,6 @@ if (isset($_POST['username']) && isset($_POST['password'])
 	$email = validate($_POST['email']);
 	$name = validate($_POST['name']);
     $surname = validate($_POST['surname']);
-
 	$user_data = 'uname='. $username. '&name='. $name;
 
 
@@ -45,11 +44,11 @@ if (isset($_POST['username']) && isset($_POST['password'])
 
 	else{
 
-		// hashing the password
+		// cifro la password
         $pass = md5($pass);
 
 	    $sql = "SELECT * FROM Utenti WHERE username='$username'";
-		$result = mysqli_query($connect, $sql);
+		$result = mysqli_query($connect, $sql); //output
 
 		if (mysqli_num_rows($result) > 0) {
 			header("Location: signup.php?error=The username is taken try another&$user_data");
@@ -57,9 +56,11 @@ if (isset($_POST['username']) && isset($_POST['password'])
 		}else {
            $sql2 = "INSERT INTO Utenti(nome, cognome, mail, username, password) VALUES('$name', '$surname','$email', '$username', '$pass')";
            $result2 = mysqli_query($connect, $sql2);
-            $_SESSION['logged'] = true;
+
            if ($result2) {
+               $_SESSION['logged'] = true;
            	 header("Location: signup.php?success=Your account has been created successfully");
+
 	         exit();
            }else {
 	           	header("Location: signup.php?error=unknown error occurred&$user_data");

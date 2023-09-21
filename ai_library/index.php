@@ -1,5 +1,5 @@
 <?PHP
-require_once('html/db_util.php');
+require_once('db_util.php');
 
 session_start();
 
@@ -83,14 +83,14 @@ if (isset($_GET['logout'])) {
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
             <li><a href="index.php" class="active">Home</a></li>
-            <li><a href="html/explore.php">Biblioteca AI</a></li>
-            <li><a href="html/news.php">Riviste e news</a></li>
-            <li><a href="html/about_us.php">Chi siamo</a></li>
+            <li><a href="explore.php">Biblioteca AI</a></li>
+            <li><a href="news.php">Riviste e news</a></li>
+            <li><a href="about_us.php">Chi siamo</a></li>
             <?php
             if (isset ($_SESSION['logged'])) {
-              echo '<li><a href="html/logout.php">logout </a></li>';
+              echo '<li><a href="logout.php">logout </a></li>';
             } else {
-              echo '<li><a href="html/signup.php">Iscriviti/Accedi</a></li>';
+              echo '<li><a href="signup.php">Iscriviti/Accedi</a></li>';
             }
             ?>
           </ul>
@@ -120,11 +120,11 @@ if (isset($_GET['logout'])) {
 
             </div>
             <div class="main-button col-5">
-              <a href="html/explore.php">Esplora la libreria</a>
+              <a href="explore.php">Esplora la libreria</a>
             </div>
 
             <div class="main-button col-5" >
-              <a href="html/news.php">Le nostre riviste e news</a>
+              <a href="news.php">Le nostre riviste e news</a>
             </div>
           </div>
         </div>

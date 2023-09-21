@@ -18,14 +18,14 @@ session_start();
     <title>Liberty NFT - Author Detail Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../assets/css/templatemo-liberty-market.css">
-    <link rel="stylesheet" href="../assets/css/owl.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -58,13 +58,13 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="../index.php" class="logo">
-                        <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px;">
+                    <a href="index.php" class="logo">
+                        <img src="assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="explore.php">Biblioteca AI</a></li>
                         <li><a href="news.php">Riviste e news</a></li>
                         <li><a href="about_us.php" class="active">Chi siamo</a></li>
@@ -120,7 +120,7 @@ https://templatemo.com/tm-577-liberty-market
       <div class="row">
         <div class="col-lg-6">
           <div class="author">
-            <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 170px;">
+            <img src="assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 170px;">
             <h4>Siamo su Instagram!<br> <a href="#">@futuristic_AI_library</a></h4>
           </div>
         </div>
@@ -353,15 +353,15 @@ https://templatemo.com/tm-577-liberty-market
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="../vendor/jquery/jquery.min.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="../assets/js/isotope.min.js"></script>
-  <script src="../assets/js/owl-carousel.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
 
-  <script src="../assets/js/tabs.js"></script>
-  <script src="../assets/js/popup.js"></script>
-  <script src="../assets/js/custom.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
   <script>
     window.watsonAssistantChatOptions = {
       integrationID: "4d73569b-69e5-4d01-a714-65454f0ecda9", // The ID of this integration.

@@ -27,15 +27,15 @@ mysqli_close($connect);
     <title>Liberty Template - NFT Item Detail Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../assets/css/MyCSS.css">
-    <link rel="stylesheet" href="../assets/css/templatemo-liberty-market.css">
-    <link rel="stylesheet" href="../assets/css/owl.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/MyCSS.css">
+    <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -68,13 +68,13 @@ https://templatemo.com/tm-577-liberty-market
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="../index.php" class="logo">
-                        <img src="../assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
+                    <a href="index.php" class="logo">
+                        <img src="assets/images/logo/10.png" alt="" style="border-radius: 60%; max-width: 60px">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="explore.php">Biblioteca AI</a></li>
                         <li><a href="news.php" class="active">Riviste e news</a></li>
                         <li><a href="about_us.php">Chi siamo</a></li>
@@ -712,13 +712,13 @@ https://templatemo.com/tm-577-liberty-market
         </div>
         <div class="col-lg-7">
           <div class="left-image">
-            <img src="../assets/images/riviste/Copertina_ConsulenzaInnovazione.jpg" alt="" style="align-content: center; height: 700px; width: 500px">
+            <img src="assets/images/riviste/Copertina_ConsulenzaInnovazione.jpg" alt="" style="align-content: center; height: 700px; width: 500px">
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
           <h4><a href="https://tinnovamag.com/riviste/speciale-consulenza-innovazione-2023/">Intelligenza Artificiale e Imprese</a></h4>
           <span class="author">
-            <img src="../assets/images/riviste/teceinnlogo.png" alt="" style="max-width: 50px; border-radius: 50%;">
+            <img src="assets/images/riviste/teceinnlogo.png" alt="" style="max-width: 50px; border-radius: 50%;">
             <h6>Tecnologia e Innovazione<br><a href="https://www.facebook.com/tecnologiaeinnovazionemag/?locale=it_IT">@tecnologiainnovazione</a></h6>
           </span>
           <p>Tecnologia & Innovazione è la rivista che divulga le più importanti innovazioni tecnologiche nel contesto industriale e aziendale italiano. La rivista mappa dall’interno i principali processi di cambiamento dei settori trainanti Made in Italy: dall’automotive alla moda, dal food&beverage al settore dell’arredamento e dell’automazione.</p>
@@ -853,15 +853,15 @@ https://templatemo.com/tm-577-liberty-market
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="../vendor/jquery/jquery.min.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="../assets/js/isotope.min.js"></script>
-  <script src="../assets/js/owl-carousel.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
 
-  <script src="../assets/js/tabs.js"></script>
-  <script src="../assets/js/popup.js"></script>
-  <script src="../assets/js/custom.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
   <script>
     window.watsonAssistantChatOptions = {
       integrationID: "4d73569b-69e5-4d01-a714-65454f0ecda9", // The ID of this integration.
@@ -877,22 +877,22 @@ https://templatemo.com/tm-577-liberty-market
   </script>
   <script>
     function search_news(event) {
-      event.preventDefault()
-      let input = document.getElementById('nomericerca').value
-      input=input.toLowerCase();
-      let categoria = document.getElementById('chooseCategory').value
-      categoria=categoria.toLowerCase();
-      let x = document.getElementsByName('cardnews');
-      let titoli=document.getElementsByName('titolorivista');
-      let categorie=document.getElementsByName('spancategory');
+      event.preventDefault() //disabilita altri comportamenti strani di default
+      let input = document.getElementById('nomericerca').value //salvo in input il valore inserito nel filtro
+      input=input.toLowerCase(); //rende il testo minuscolo
+      let categoria = document.getElementById('chooseCategory').value //salvola categoria
+      categoria=categoria.toLowerCase(); //rende il testo minuscolo
+      let x = document.getElementsByName('cardnews'); //salvo in un array tutte le carte
+      let titoli=document.getElementsByName('titolorivista'); //salvo in un array tutti titoli
+      let categorie=document.getElementsByName('spancategory');  //salvo in un array tutte categorie
 
       for (i = 0; i < x.length; i++) {
-        let titolo=titoli[i].innerHTML
-        let categoria_filtro=categorie[i].innerHTML
+        let titolo=titoli[i].innerHTML //metodo per prendere il valore del titolo iesimo
+        let categoria_filtro=categorie[i].innerHTML //metodo per prendere il valore della categoria iesima
         //titolo= titolo+'';
         //titolo=titolo.toLowerCase()
-        console.log(categoria)
-        if(categoria=='tutte le categorie'){
+        //console.log(categoria)
+        if(categoria=='tutte le categorie'){  // se la categoria messa nel filtro vale ...
           console.log('tutte')
           if (!titolo.toLowerCase().includes(input)) {
             x[i].style.display="none";

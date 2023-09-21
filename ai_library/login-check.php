@@ -38,7 +38,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
             	$_SESSION['email'] = $row['mail'];
             	$_SESSION['id'] = $row['ID'];
                 $_SESSION['logged'] = true;
-            	header("Location: ../index.php");
+            	header("Location: index.php");
 		        exit();
             }else{
 				header("Location: login.php?error=Mail o password errati");
