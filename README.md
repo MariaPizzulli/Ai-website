@@ -14,8 +14,25 @@ From beginners to experts, everyone can find something valuable at AI Library!
 + ⚙️ HTML5
 + 🎨 CSS3
 + 🖱️ JavaScript
-+ 💾 Docker
++ 🐋 Docker
++ 💻 PHP
++ 🗣️ IBM Watson
++ 🐬 MySQL
+
+## Usage
++ Navigate through the website using the intuitive user interface.
++ Interact with the virtual assistant powered by IBM Watson.
++ Explore the dynamic content retrieved from the MySQL database.
+
+## Credits
++ [IBM Watson]([url](https://www.ibm.com/watson))
++ [MySQL]([url](https://www.mysql.com/))
++ [Docker]([url](https://www.docker.com/))
 
 ## Authors
-+ MariaPizzulli
-+ mariajosesalasmiranda
++ @MariaPizzulli
++ @mariajosesalasmiranda
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
