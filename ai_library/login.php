@@ -90,35 +90,12 @@ https://templatemo.com/tm-577-liberty-market
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
-  <!--
-  <div class="page-heading normal-space">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h6>Liberty NFT Market</h6>
-          <h2>Create Your NFT Now.</h2>
-          <span>Home > <a href="#">Create Yours</a></span>
-          <div class="buttons">
-            <div class="main-button">
-              <a href="explore.php">Explore Our Items</a>
-            </div>
-            <div class="border-button">
-              <a href="login signup.html">Create Your NFT</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
+
   <div class="item-details-page">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <!--
-            <div class="line-dec"></div>
-            -->
             <h1>EFFETTUA <em>L'ACCESSO</em></h1><br>
             <a href="signup.php"><h5>Se non possiedi un account esegui la registrazione</h5></a>
           </div>
@@ -160,43 +137,6 @@ https://templatemo.com/tm-577-liberty-market
             </div>
           </form>
         </div>
-        <!--
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <div class="line-dec"></div>
-            <h2>This Is <em>Your Item</em> Preview.</h2>
-          </div>
-        </div>
-        <div class="col-lg-7">
-          <div class="left-image">
-            <img src="assets/images/create-yours.jpg" alt="" style="border-radius: 20px;">
-          </div>
-        </div>
-        <div class="col-lg-5 align-self-center">
-          <h4>Dolores Haze Westworld Eye</h4>
-          <span class="author">
-            <img src="assets/images/author-02.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
-            <h6>Kataleya Smithee<br><a href="#">@kataleey</a></h6>
-          </span>
-          <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="row">
-            <div class="col-3">
-              <span class="bid">
-                Current Bid<br><strong>0.06 ETH</strong><br><em>($8055,35)</em>
-              </span>
-            </div>
-            <div class="col-4">
-              <span class="owner">
-                Owner<br><strong>Alan Smithee</strong><br><em>(@asmithee)</em>
-              </span>
-            </div>
-            <div class="col-5">
-              <span class="ends">
-                Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(January 22nd, 2021)</em>
-              </span>
-            </div>
-          </div>
-        </div>-->
       </div>
     </div>
   </div>

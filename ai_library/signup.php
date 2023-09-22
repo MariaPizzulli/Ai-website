@@ -93,27 +93,7 @@ https://templatemo.com/tm-577-liberty-market
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
-  <!--
-  <div class="page-heading normal-space">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h6>Liberty NFT Market</h6>
-          <h2>Create Your NFT Now.</h2>
-          <span>Home > <a href="#">Create Yours</a></span>
-          <div class="buttons">
-            <div class="main-button">
-              <a href="explore.php">Explore Our Items</a>
-            </div>
-            <div class="border-button">
-              <a href="login signup.php">Create Your NFT</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
+
   <div class="item-details-page">
     <div class="container">
       <div class="row">
